@@ -1,0 +1,33 @@
+Config,Model,R2,MAE,RMSE,AUC
+Spotify (L1),Linear Regression,0.0638,15.249,18.716,0.6372
+Spotify (L1),Random Forest,0.1653,13.985,17.672,0.717
+Spotify (L1),XGBoost,0.1654,13.917,17.671,0.7183
+Spotify (L1),LightGBM,0.1667,13.948,17.657,0.7163
+Librosa (L3a),Linear Regression,0.0913,14.81,18.439,0.6775
+Librosa (L3a),Random Forest,0.1397,14.244,17.941,0.7093
+Librosa (L3a),XGBoost,0.145,14.008,17.885,0.7108
+Librosa (L3a),LightGBM,0.1474,14.063,17.86,0.7105
+VGGish (L3b),Linear Regression,0.1496,14.124,17.837,0.7128
+VGGish (L3b),Random Forest,0.2026,13.44,17.273,0.7509
+VGGish (L3b),XGBoost,0.1919,13.429,17.389,0.743
+VGGish (L3b),LightGBM,0.1965,13.42,17.338,0.7459
+CLAP (L3c),Linear Regression,0.1741,13.764,17.579,0.7316
+CLAP (L3c),Random Forest,0.1882,13.608,17.428,0.74
+CLAP (L3c),XGBoost,0.1871,13.486,17.44,0.7416
+CLAP (L3c),LightGBM,0.1897,13.505,17.411,0.7392
+Spotify+Librosa,Linear Regression,0.142,14.258,17.917,0.7155
+Spotify+Librosa,Random Forest,0.211,13.555,17.182,0.7492
+Spotify+Librosa,XGBoost,0.2485,13.02,16.768,0.7726
+Spotify+Librosa,LightGBM,0.2453,13.048,16.804,0.771
+Spotify+VGGish,Linear Regression,0.1928,13.692,17.379,0.7411
+Spotify+VGGish,Random Forest,0.2559,12.984,16.685,0.7723
+Spotify+VGGish,XGBoost,0.288,12.48,16.322,0.7901
+Spotify+VGGish,LightGBM,0.2841,12.532,16.366,0.791
+Spotify+CLAP,Linear Regression,0.2149,13.361,17.139,0.7578
+Spotify+CLAP,Random Forest,0.2419,13.121,16.841,0.7646
+Spotify+CLAP,XGBoost,0.2734,12.611,16.488,0.785
+Spotify+CLAP,LightGBM,0.2785,12.61,16.43,0.7866
+Spotify+All Audio,Linear Regression,0.2307,13.169,16.966,0.7669
+Spotify+All Audio,Random Forest,0.2527,13.009,16.721,0.7692
+Spotify+All Audio,XGBoost,0.2924,12.398,16.271,0.7967
+Spotify+All Audio,LightGBM,0.2923,12.429,16.272,0.7947

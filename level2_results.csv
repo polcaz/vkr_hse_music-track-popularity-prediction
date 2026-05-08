@@ -1,0 +1,29 @@
+Config,Model,R2,MAE,RMSE,AUC
+L1: Spotify,Linear Regression,0.0641,15.233,18.673,0.6308
+L1: Spotify,Random Forest,0.1687,13.89,17.598,0.7241
+L1: Spotify,XGBoost,0.1667,13.839,17.62,0.7208
+L1: Spotify,LightGBM,0.1697,13.858,17.588,0.7215
+L2a: Internal,Linear Regression,0.7832,4.369,8.987,0.9617
+L2a: Internal,Random Forest,0.7778,4.507,9.099,0.9581
+L2a: Internal,XGBoost,0.7758,4.491,9.139,0.9593
+L2a: Internal,LightGBM,0.7834,4.445,8.983,0.9601
+L2b: External (Last.fm),Linear Regression,0.1022,14.938,18.288,0.6506
+L2b: External (Last.fm),Random Forest,0.3753,11.602,15.255,0.825
+L2b: External (Last.fm),XGBoost,0.1812,13.999,17.465,0.702
+L2b: External (Last.fm),LightGBM,0.3025,12.608,16.12,0.787
+L2c: Internal + External,Linear Regression,0.7834,4.398,8.983,0.9616
+L2c: Internal + External,Random Forest,0.7773,4.515,9.108,0.9581
+L2c: Internal + External,XGBoost,0.7716,4.505,9.225,0.9584
+L2c: Internal + External,LightGBM,0.7827,4.462,8.997,0.9601
+L1 + L2a,Linear Regression,0.7834,4.376,8.982,0.9618
+L1 + L2a,Random Forest,0.7829,4.44,8.993,0.9597
+L1 + L2a,XGBoost,0.7783,4.492,9.087,0.9601
+L1 + L2a,LightGBM,0.7841,4.442,8.967,0.9615
+L1 + L2b,Linear Regression,0.1589,14.219,17.701,0.7054
+L1 + L2b,Random Forest,0.3596,11.68,15.446,0.8154
+L1 + L2b,XGBoost,0.3607,11.631,15.433,0.8168
+L1 + L2b,LightGBM,0.3482,11.813,15.583,0.8108
+L1 + L2c,Linear Regression,0.7836,4.408,8.979,0.9618
+L1 + L2c,Random Forest,0.7839,4.43,8.972,0.96
+L1 + L2c,XGBoost,0.7776,4.519,9.102,0.96
+L1 + L2c,LightGBM,0.7878,4.417,8.892,0.9619

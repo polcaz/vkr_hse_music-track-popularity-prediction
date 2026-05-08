@@ -1,0 +1,13 @@
+Config,Model,R2,MAE,RMSE,AUC
+Spotify (L1),Linear Regression,0.0807,13.121,15.863,0.6322
+Spotify (L1),Random Forest,0.1911,12.047,14.88,0.7139
+Spotify (L1),XGBoost,0.1955,11.956,14.839,0.7158
+Spotify (L1),LightGBM,0.1967,11.982,14.828,0.7146
+Text (L4),Linear Regression,0.1984,11.825,14.813,0.7331
+Text (L4),Random Forest,0.3001,10.868,13.842,0.7875
+Text (L4),XGBoost,0.3008,10.761,13.835,0.786
+Text (L4),LightGBM,0.2862,11.003,13.978,0.7755
+Spotify + Text,Linear Regression,0.2455,11.476,14.371,0.7546
+Spotify + Text,Random Forest,0.3078,10.966,13.765,0.7781
+Spotify + Text,XGBoost,0.3687,10.273,13.146,0.8072
+Spotify + Text,LightGBM,0.3634,10.364,13.201,0.8034
