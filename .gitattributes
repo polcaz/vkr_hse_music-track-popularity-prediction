@@ -4,3 +4,4 @@ data/audio_features.csv filter=lfs diff=lfs merge=lfs -text
 data/text_features.csv filter=lfs diff=lfs merge=lfs -text
 data/lastfm_cache.csv filter=lfs diff=lfs merge=lfs -text
 data/genius_lyrics_cache.json filter=lfs diff=lfs merge=lfs -text
+models/** filter=lfs diff=lfs merge=lfs -text
